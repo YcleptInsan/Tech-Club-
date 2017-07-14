@@ -1,0 +1,17 @@
+{ "members": [{
+  "name": "John Frankford",
+  "email": "john@johnjon.com",
+  "hobbies": "running, jumping, sitting, walking",
+  "id": "1"
+  }, {
+  "name": "Jeff Chang",
+  "email": "johnChange@johnjon.com",
+  "hobbies": "running, jumping, sitting, walking",
+  "id": "2"
+  }, {
+  "name": "Alota Pharts",
+  "email": "lotPharts@johnjon.com",
+  "hobbies": "talking, instagram, facebook",
+  "id": "3"
+  }]
+}

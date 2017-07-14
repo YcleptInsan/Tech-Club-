@@ -1,0 +1,31 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Album to Inventory</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Member Name:</label>
+        <br>
+        <input #newName>
+      </div>
+
+      <div>
+        <label>Member Email:</label>
+        <br>
+        <input #newEmail>
+      </div>
+
+      <div>
+        <label>Member Hobbies:</label>
+        <br>
+        <textarea #newHobbies></textarea>
+      </div>
+       <button (click)="submitForm(newName.value, newEmail.value, newHobbies.value); newName.value=''; newEmail.value=''; newHobbies.value=''">Add</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <app-member></app-member>
+</div>
